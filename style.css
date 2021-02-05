@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/* *
+{
+    outline: 2px solid red;
+} */
+
+body
+{
+    margin: 0;
+    background-color: orange;
+}
+
+header
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    font-family: 'Sriracha';
+    width: 100%;
+}
+
+nav
+{
+    background-color: lightblue;
+    height: 5vh;
+    padding-left: 40px;
+}
+
+.jobs-1
+{
+    height: 37vh;
+    background-color: white;
+    color: blue;  
+}
+
+.jobs-1 > div
+{
+    position: relative;
+    top: 2vh;
+    border-top: 3vh solid blue;
+    border-bottom: 3vh solid blue;
+}
+
+.main-img
+{
+    width: 25vh;
+    height: 25vh;
+    float: left;
+    position: relative;
+    bottom: 1.33em;
+}
+
+.main-img2
+{
+    float:right
+}
+
+.jobs-2
+{
+    background-color: lightblue;
+    height: 28vh;
+    color: red;
+}
+
+.jobs-2 > div
+{
+    border-top: 3vh solid red;
+    border-bottom: 3vh solid red;
+    position: relative;
+    top: 2vh;
+}
+
+footer
+{
+    position: relative;
+    top: -4.5vh;
+    background-color: rgb(240, 109, 62);
+    height: 17vh;
+}
+
+footer > p 
+{
+    text-align: center;
+    font-weight: bolder;
+}
+
+hr
+{
+    color: white;
+    height: 5vh;
+}
+
+a:hover
+{
+    color: yellow;
+}
+
+.amarillo
+{
+    background-color: yellow;
+}
+
+.tachado
+{
+    text-decoration: line-through;
+}
+
+
+/* PRODUCTOS */
+
+
+.main-products
+{
+    height: 50vh;
+}
+
+.main-products > section
+{
+    background-color:wheat;
+    margin-left: 4vw;
+    height: 35vh;
+}
+
+ul
+{
+    list-style-type: katakana-iroha;
+}
+
+.prod-footer
+{
+    top: 10vh;
+}
